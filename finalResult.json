@@ -1,0 +1,206 @@
+{"QMP": {"version": {"qemu": {"micro": 0, "minor": 0, "major": 1}, "package": " (qemu-kvm-1.0)"}, "capabilities": []}}
+{"return": {}}
+{"return": "f603bce4: 'i' 'n' 'i' 't' '\\x00' 'h' '_' 'r'\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "c16a5350:          0\r\n"}
+{"return": "f603b814: 'k' 't' 'h' 'r' 'e' 'a' 'd' 'd'\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "c16a5350:          0\r\n"}
+{"return": "f603b344: 'k' 's' 'o' 'f' 't' 'i' 'r' 'q'\r\n"}
+{"return": "f603b26c:          3\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6041834: 'k' 'w' 'o' 'r' 'k' 'e' 'r' '/'\r\n"}
+{"return": "f604175c:          5\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6041364: 'k' 'w' 'o' 'r' 'k' 'e' 'r' '/'\r\n"}
+{"return": "f604128c:          6\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6044d24: 'm' 'i' 'g' 'r' 'a' 't' 'i' 'o'\r\n"}
+{"return": "f6044c4c:          7\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6044854: 'r' 'c' 'u' '_' 'p' 'r' 'e' 'e'\r\n"}
+{"return": "f604477c:          8\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6044384: 'r' 'c' 'u' '_' 'b' 'h' '\\x00' 'd'\r\n"}
+{"return": "f60442ac:          9\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6047d44: 'r' 'c' 'u' '_' 's' 'c' 'h' 'e'\r\n"}
+{"return": "f6047c6c:         10\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6047874: 'w' 'a' 't' 'c' 'h' 'd' 'o' 'g'\r\n"}
+{"return": "f604779c:         11\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f60473a4: 'k' 'h' 'e' 'l' 'p' 'e' 'r' '\\x00'\r\n"}
+{"return": "f60472cc:         12\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6056d64: 'k' 'w' 'o' 'r' 'k' 'e' 'r' '/'\r\n"}
+{"return": "f6056c8c:         13\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6339ce4: 'w' 'r' 'i' 't' 'e' 'b' 'a' 'c'\r\n"}
+{"return": "f6339c0c:        298\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6339344: 'b' 'i' 'o' 's' 'e' 't' '\\x00' 'd'\r\n"}
+{"return": "f633926c:        300\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6391834: 'k' 'b' 'l' 'o' 'c' 'k' 'd' '\\x00'\r\n"}
+{"return": "f639175c:        302\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5934d04: 'a' 't' 'a' '_' 's' 'f' 'f' '\\x00'\r\n"}
+{"return": "f5934c2c:        433\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5938874: 'k' 'h' 'u' 'b' 'd' '\\x00' 'd' 'd'\r\n"}
+{"return": "f593879c:        440\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5987484: 'k' 'w' 'o' 'r' 'k' 'e' 'r' '/'\r\n"}
+{"return": "f59873ac:        462\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5987e24: 'k' 's' 'w' 'a' 'p' 'd' '0' '\\x00'\r\n"}
+{"return": "f5987d4c:        571\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5987954: 'f' 's' 'n' 'o' 't' 'i' 'f' 'y'\r\n"}
+{"return": "f598787c:        572\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f59383a4: 'c' 'r' 'y' 'p' 't' 'o' '\\x00' 'd'\r\n"}
+{"return": "f59382cc:        574\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f61b5444: 's' 'c' 's' 'i' '_' 'e' 'h' '_'\r\n"}
+{"return": "f61b536c:        750\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5862464: 's' 'c' 's' 'i' '_' 'e' 'h' '_'\r\n"}
+{"return": "f586238c:        753\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f61a38b4: 'k' 'p' 's' 'm' 'o' 'u' 's' 'e'\r\n"}
+{"return": "f61a37dc:        806\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f61a58d4: 'k' 'w' 'o' 'r' 'k' 'e' 'r' '/'\r\n"}
+{"return": "f61a57fc:        809\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f61af934: 'c' 'f' 'i' 'n' 't' 'e' 'r' 'a'\r\n"}
+{"return": "f61af85c:        818\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f59f3834: 'b' 'i' 'n' 'd' 'e' 'r' '\\x00' 'd'\r\n"}
+{"return": "f59f375c:        827\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f629be04: 'd' 'e' 'f' 'e' 'r' 'w' 'q' '\\x00'\r\n"}
+{"return": "f629bd2c:        850\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f63df444: 'k' 'w' 'o' 'r' 'k' 'e' 'r' '/'\r\n"}
+{"return": "f63df36c:        879\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6391364: 'l' 'o' 'o' 'p' '0' '\\x00' 'd' 'd'\r\n"}
+{"return": "f639128c:        894\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5934834: 'l' 'o' 'o' 'p' '1' '\\x00' 'd' 'd'\r\n"}
+{"return": "f593475c:        897\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5934364: 'j' 'b' 'd' '2' '/' 'l' 'o' 'o'\r\n"}
+{"return": "f593428c:        898\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f6391d04: 'e' 'x' 't' '4' '-' 'd' 'i' 'o'\r\n"}
+{"return": "f6391c2c:        899\r\n"}
+{"return": "f603b73c:          2\r\n"}
+{"return": "f5938d44: 'v' '8' '6' 'd' '\\x00' 'e' 'r' '/'\r\n"}
+{"return": "f5938c6c:        957\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f59f7384: 'u' 'e' 'v' 'e' 'n' 't' 'd' '\\x00'\r\n"}
+{"return": "f59f72ac:        972\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f61b5de4: 'p' 'o' 'w' 'e' 'r' 'b' 't' 'n'\r\n"}
+{"return": "f61b5d0c:       1045\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f5862934: 's' 'd' 'c' 'a' 'r' 'd' '\\x00' 'r'\r\n"}
+{"return": "f586285c:       1046\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f6056894: 'h' 'e' 'a' 'l' 't' 'h' 'd' '\\x00'\r\n"}
+{"return": "f60567bc:       1047\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f60888f4: 's' 'e' 'r' 'v' 'i' 'c' 'e' 'm'\r\n"}
+{"return": "f608881c:       1048\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f61af464: 'v' 'o' 'l' 'd' '\\x00' 'h' '_' 'r'\r\n"}
+{"return": "f61af38c:       1049\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f6088424: 'n' 'e' 't' 'd' '\\x00' 'h' '_' 'r'\r\n"}
+{"return": "f608834c:       1050\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f61b5914: 'd' 'e' 'b' 'u' 'g' 'g' 'e' 'r'\r\n"}
+{"return": "f61b583c:       1051\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f6095364: 'r' 'i' 'l' 'd' '\\x00' 'h' '_' 'r'\r\n"}
+{"return": "f609528c:       1052\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f62fd8f4: 's' 'u' 'r' 'f' 'a' 'c' 'e' 'f'\r\n"}
+{"return": "f62fd81c:       1053\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f6095834: 'z' 'y' 'g' 'o' 't' 'e' '\\x00' 'c'\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f63dfde4: 'd' 'r' 'm' 's' 'e' 'r' 'v' 'e'\r\n"}
+{"return": "f63dfd0c:       1055\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f6095d04: 'm' 'e' 'd' 'i' 'a' 's' 'e' 'r'\r\n"}
+{"return": "f6095c2c:       1056\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f59063e4: 'i' 'n' 's' 't' 'a' 'l' 'l' 'd'\r\n"}
+{"return": "f590630c:       1057\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f62fddc4: 'k' 'e' 'y' 's' 't' 'o' 'r' 'e'\r\n"}
+{"return": "f62fdcec:       1058\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f59f3d04: 's' 'h' '\\x00' 't' '\\x00' 'h' '_' 'r'\r\n"}
+{"return": "f59f3c2c:       1062\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f6088dc4: 's' 'u' '\\x00' 't' '\\x00' 'h' '_' 'r'\r\n"}
+{"return": "f6088cec:       1071\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f59f3364: 'a' 'd' 'b' 'd' '\\x00' 'h' '_' 'r'\r\n"}
+{"return": "f59f328c:       1072\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f5862e04: 's' 'y' 's' 't' 'e' 'm' '_' 's'\r\n"}
+{"return": "f5862d2c:       1266\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef007ce4: 'd' 'h' 'c' 'p' 'c' 'd' '\\x00' 'r'\r\n"}
+{"return": "ef007c0c:       1414\r\n"}
+{"return": "f603bc0c:          1\r\n"}
+{"return": "f60cfd64: 'n' 'd' 'r' 'o' 'i' 'd' '.' 's'\r\n"}
+{"return": "f60cfc8c:       1458\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "f6339814: 'd' '.' 'p' 'r' 'o' 'c' 'e' 's'\r\n"}
+{"return": "f633973c:       1504\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef0f8d44: 'p' 'u' 't' 'm' 'e' 't' 'h' 'o'\r\n"}
+{"return": "ef0f8c6c:       1559\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef12adc4: 'm' '.' 'a' 'n' 'd' 'r' 'o' 'i'\r\n"}
+{"return": "ef12acec:       1579\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef033d64: 'i' 'd' '.' 'p' 'r' 'i' 'n' 't'\r\n"}
+{"return": "ef033c8c:       1602\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef1d9934: 'n' 'd' 'r' 'o' 'i' 'd' '.' 'c'\r\n"}
+{"return": "ef1d985c:       1626\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef261424: 'e' 'n' 'm' 'o' 'd' '.' 't' 'r'\r\n"}
+{"return": "ef26134c:       1661\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef1bdd84: 'd' 'r' 'o' 'i' 'd' '.' 'd' 'e'\r\n"}
+{"return": "ef1bdcac:       1691\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef2b3874: 'v' 'i' 'd' 'e' 'r' 's' '.' 'c'\r\n"}
+{"return": "ef2b379c:       1706\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef3bcd04: 'c' 'o' 'm' '.' 'a' 'n' 'd' 'r'\r\n"}
+{"return": "ef3bcc2c:       1831\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ef2c8ce4: 'm' '.' 'a' 'n' 'd' 'r' 'o' 'i'\r\n"}
+{"return": "ef2c8c0c:       1894\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ee515914: 'd' 'r' 'o' 'i' 'd' '.' 'g' 'a'\r\n"}
+{"return": "ee51583c:       1929\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ee5aa8d4: 'p' 'a' 'l' '.' 'a' 'n' 'd' 'r'\r\n"}
+{"return": "ee5aa7fc:       1948\r\n"}
+{"return": "f609575c:       1054\r\n"}
+{"return": "ee5e0484: 's' 'h' '\\x00' '.' 'a' 'n' 'd' 'r'\r\n"}
+{"return": "ee5e03ac:       1966\r\n"}
+{"return": "ee5aa7fc:       1948\r\n"}
