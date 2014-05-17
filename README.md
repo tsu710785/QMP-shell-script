@@ -1,10 +1,7 @@
----
-layout: post
-title: '雲安assignment1'
-date: 2014-05-18 00:46
-comments: true
-categories: 
----
+#Cloud Security Assignment 1
+=========
+
+
 I use NodeJS in this assignment, but its asynchronous figure seems to make thing more complicated.
 
 So I decide to seperate this task into 4 parts.
