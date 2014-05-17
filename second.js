@@ -1,7 +1,7 @@
 var net = require('net'),async = require('async'),fs = require('fs');
 var i=0;
 var flag = 0; //determine which is orginal write
-var arr = JSON.parse(fs.readFileSync('OBJ.json'));
+var arr = JSON.parse(fs.readFileSync('finalResult.json'));
 var arr2 = [];
 
 var client = net.connect('./qmp-sock',function(){
@@ -13,7 +13,7 @@ var client = net.connect('./qmp-sock',function(){
 			//console.log("dowrite",dowrite(item.Task_Location));
 			callback(null,client.write(dowrite(item.Task_Location)));
 		},200);
-		fs.writeFileSync('PPIDtry.json',JSON.stringify(arr2));
+		fs.writeFileSync('finalResult.json',JSON.stringify(arr2));
 
 	},function(err){
 		//console.log(err);
@@ -27,13 +27,7 @@ var client = net.connect('./qmp-sock',function(){
 });
 
 
-
 client.on('data',function(data){
-
-	// if(flag%2===0){
-
-	 	//console.log("receive data",data.toString());
-	// }
 
 	var dataToStr = data.toString();
 		var fin = "";
@@ -50,16 +44,12 @@ client.on('data',function(data){
 
 		Process_Struct = new _obj(arr[i].Task_Location,arr[i].Name_Location,arr[i].PID_Location,fin_int_forppid);
 		arr2.push(Process_Struct);
-		// fs.appendFile('PPIDtry3.json',JSON.stringify(Process_Struct,null,2), function (err) {
-  // 			if (err) throw err;
-		// });
+
 		i=i+1;
 		client.write(str_PPID);
 	}
 	flag = flag +1;
 	
-
-
 });
 
 
