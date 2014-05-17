@@ -49,7 +49,8 @@ I also use `async` module to deal with the callback, making it return correctly.
 ```
 function dowrite(Task_Location){	
 	var temp = Task_Location+84+8;//get parent address' pointer +84+8
-	var str = "{ 'execute':'human-monitor-command','arguments':{'command-line':'x/1dw " + temp.toString() + "'}}";
+	var str = "{ 'execute':'human-monitor-command',
+	   'arguments':{'command-line':'x/1dw " + temp.toString() + "'}}";
 	return str;
 }
 ```
@@ -66,12 +67,14 @@ client.on('data',function(data){
 		//console.log(fin);
 		fin_int_forppid = fin_int_forppid+572;
 
-	var str_PPID = "{ 'execute':'human-monitor-command','arguments':{'command-line':'x/1dw " + fin_int_forppid.toString()+ "'}}";
+	var str_PPID = "{ 'execute':'human-monitor-command',
+	    'arguments':{'command-line':'x/1dw " + fin_int_forppid.toString()+ "'}}";
 
 	if(flag%2===1){
 		arr.PPID_Location = fin_int_forppid;
 
-		Process_Struct = new _obj(arr[i].Task_Location,arr[i].Name_Location,arr[i].PID_Location,fin_int_forppid);
+		Process_Struct = new _obj(arr[i].Task_Location,arr[i].Name_Location,
+					  arr[i].PID_Location,fin_int_forppid);
 		arr2.push(Process_Struct);
 		i=i+1;
 		client.write(str_PPID);
@@ -140,10 +143,12 @@ client.on('data',function(data){
 		var fin_int_forppid = parseInt(fin);
 		//console.log(fin);
 		fin_int_forppid = fin_int_forppid+572;
-	var str_PPID = "{ 'execute':'human-monitor-command','arguments':{'command-line':'x/1dw " + fin_int_forppid.toString()+ "'}}";
+	var str_PPID = "{ 'execute':'human-monitor-command',
+	    'arguments':{'command-line':'x/1dw " + fin_int_forppid.toString()+ "'}}";
 	if(flag%2===1){
 		arr.PPID_Location = fin_int_forppid;
-		Process_Struct = new _obj(arr[i].Task_Location,arr[i].Name_Location,arr[i].PID_Location,fin_int_forppid);
+		Process_Struct = new _obj(arr[i].Task_Location,arr[i].Name_Location,
+			                  arr[i].PID_Location,fin_int_forppid);
 		arr2.push(Process_Struct);
 		i=i+1;
 		client.write(str_PPID);
@@ -162,7 +167,8 @@ function cal_next(data){
 
 function dowrite(Task_Location){	//get parent address' pointer +84+8
 	var temp = Task_Location+84+8;
-	var str = "{ 'execute':'human-monitor-command','arguments':{'command-line':'x/1dw " + temp.toString() + "'}}";
+	var str = "{ 'execute':'human-monitor-command',
+		  'arguments':{'command-line':'x/1dw " + temp.toString() + "'}}";
 	return str;
 }
 
@@ -210,9 +216,12 @@ function dowrite(Task_Location,PPID_Location){	//get parent address' pointer +84
 		name = Task_Location+300;
 		pid = Task_Location+84;
 		ppid = PPID_Location;
-	var str = "{ 'execute':'human-monitor-command','arguments':{'command-line':'x/4cw " + name.toString() + "'}}" +
-			  "{ 'execute':'human-monitor-command','arguments':{'command-line':'x/1dw "  + pid.toString() + "'}}" +
-			  "{ 'execute':'human-monitor-command','arguments':{'command-line':'x/1dw "  + ppid.toString() + "'}}";
+	var str = "{ 'execute':'human-monitor-command',
+	'arguments':{'command-line':'x/4cw " + name.toString() + "'}}" +
+	"{ 'execute':'human-monitor-command',
+	'arguments':{'command-line':'x/1dw "  + pid.toString() + "'}}" +
+	"{ 'execute':'human-monitor-command',
+	'arguments':{'command-line':'x/1dw "  + ppid.toString() + "'}}";
 	return str;
 }
 ```
@@ -222,7 +231,8 @@ Final, we read the JSON we get at the thrid step, using a regular expression to 
 var fs = require('fs');
 var arr = fs.readFileSync('finalResult.json').toString();
 var FinalArr =[];
-arr = arr.replace(/'/gi,"").replace(/\\r\\n/gi,"").replace(/(\{)(")(r)(e).*?:.*?(:)/gi,"").replace(/\\\\.*?(00)\"/gi,"").replace(/\"/gi,"").replace(/\s/gi,"").replace(/\}/gi,"\n");
+arr = arr.replace(/'/gi,"").replace(/\\r\\n/gi,"").replace(/(\{)(")(r)(e).*?:.*?(:)/gi,"")
+.replace(/\\\\.*?(00)\"/gi,"").replace(/\"/gi,"").replace(/\s/gi,"").replace(/\}/gi,"\n");
 var arr2 = arr.substring(98).split('\n');
 for (var i = 0; i < arr2.length-1; i=i+3) {
 	Process_Struct = new _obj(arr2[i],arr2[i+1],arr2[i+2]);
