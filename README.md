@@ -1,6 +1,7 @@
 #Cloud Security Assignment 1
 =========
 
+Also launch in http://tsu.logdown.com/posts/199441-yunan-assignment1
 
 I use NodeJS in this assignment, but its asynchronous figure seems to make thing more complicated.
 
