@@ -3,7 +3,9 @@
 b00705045 張奕儁     
 b00705012 黃千瑜
 
-Also launch in http://tsu.logdown.com/posts/199441-yunan-assignment1
+Also launch in 
+http://tsu.logdown.com/posts/199441-yunan-assignment1  
+https://github.com/tsu710785/QMP-shell-script
 
 We use NodeJS in this assignment, but its asynchronous figure seems to make thing more complicated.
 
