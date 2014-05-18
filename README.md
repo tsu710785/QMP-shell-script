@@ -56,7 +56,7 @@ function dowrite(Task_Location){
 }
 ```
 This fuction is to add offset and make a request string.
-`client.wirte()` sends data though socket and receives data by `client.on()`
+`client.wirte()` sends data through socket and receives data by `client.on()`
 ```
 client.on('data',function(data){
 
@@ -83,8 +83,8 @@ client.on('data',function(data){
 	flag = flag +1;
 });
 ```
-Variable flag is to judge weather this respond we wants or not.
-Because another callback will return though this.
+Variable flag is to judge whether this respond we wants or not.
+Because another callback will return through this.
 We find that only the even counts response we want, so we use mod(餘數) to implement that.
 
 ```
@@ -106,7 +106,7 @@ function _obj(task,name,pid,ppid){
 `cal_next()`is to get string and `_obj()` is and array constructor.
 ##find_ppid.js
 Basically this is very similiar with first one, and purpose of this is to find ppid for everyone.
-**Cause we find ppid is the tast adress adds 92. And this will point to top of ppid's stackframe**
+**Cause we find ppid is the task address adds 92. And this will point to top of ppid's stackframe**
 After find ppid, we also store it into the JSON we created a while ago.
 ```
 var net = require('net'),async = require('async'),fs = require('fs');
@@ -183,7 +183,7 @@ function _obj(task,name,pid,ppid){
 ##returnResult.js
 First two only deal with JSON file. And now we have name, task, pid, ppid of every process.
 And we can start talk with Android now.
-We ask for those I mentioned above.
+We send the data we got above to QEMU and get the respond.
 As same as the first two js, we also write the result into a JSON file.
 ```
 var net = require('net'),async = require('async'),fs = require('fs');
