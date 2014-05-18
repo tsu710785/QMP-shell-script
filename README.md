@@ -85,7 +85,7 @@ client.on('data',function(data){
 ```
 Variable flag is to judge whether this respond we wants or not.
 Because another callback will return through this.
-We find that only the even counts response we want, so we use mod(餘數) to implement that.
+We find that only the even counts response we want, so we use mod(remainder in division) to implement that.
 
 ```
 function cal_next(data){
