@@ -1,21 +1,23 @@
 #Cloud Security Assignment 1
 =========
+b00705045 張奕儁
+b00705012 黃千瑜
 
 Also launch in http://tsu.logdown.com/posts/199441-yunan-assignment1
 
-I use NodeJS in this assignment, but its asynchronous figure seems to make thing more complicated.
+We use NodeJS in this assignment, but its asynchronous figure seems to make thing more complicated.
 
-So I decide to seperate this task into 4 parts.
+So we decide to seperate this task into 4 parts.
 The first one `find_task&name&pid.js` is to find every task,name,pid location and store it.
 The second one `find_ppid.js` is to find ppid for every task.
 The third one `returnResult.js` is to print the original output from Qemu.
 And the last one `Deal_str.js` extract the infomation we need and record it in the JSON file.
 
-In order to make thing easily, I make a `MakeFile` including all files.
+In order to make thing easily, we make a `MakeFile` including all files.
 In linux, you only need to execute `make` instruction, and the thing will be done.
-Following is my code, and I'll explain how I design.
+Following is our code, and we will explain how we design.
 
-I use the `net` module in NodeJS to implement the socket programming.
+We use the `net` module in NodeJS to implement the socket programming.
 
 ##find_task&name&pid.js
 ```
